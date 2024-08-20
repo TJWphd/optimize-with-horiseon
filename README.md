@@ -13,4 +13,4 @@ I also used online forums like Stack Exchange to find others' solutions to simil
 
 Probably the easiest part was replacing <div> tags with semantic tags, there is a popular graphic from Semrush that made this incredibly simple.
 
-I was tipped off by a classmate (Arman Tork) that one of the nav links was broken, so that was the first fix I made. Otherwise, my classmates and I mostly gave each other moral support.
+I was tipped off by a classmate over Discord that one of the nav links was broken, so that was the first fix I made. Otherwise, my classmates and I mostly gave each other moral support.
