@@ -1,16 +1,10 @@
 # optimize-with-horiseon
 semantic re-factoring of a website
 
-For this project I refactored existing code to make the HTML semantic, to fix a broken link, to adjust the page (primarily, the header) to approximate a mock-up provided by the user. This required a number of changes to the HTML and CSS files.
+This project re-factors the client's existing website for search engine optimization (SEO), namely (1) replacing standard HTML tags with semantic tags and (2) adding alt descriptions to images. A broken nav link was also fixed.
 
-As this was my first project, I relied on course materials including class exercises in HTML and CSS, class instruction from my instructor John Young and TA Nick Gambino, and publicly available resources (Stack Exchange, Semrush, w3 schools), plus a small amount of discussion with classmates around the topics (though we did not share code).
+Semantic refactoring aims to make the tags and classes in code more reflective of the content and specifically, the context in which that content appears on the page. Therefore, search engines understand which content is central or peripheral, etc. In addition, alt descriptions of images have two benefits, (1) being more accessible to the blind and visually impaired, and (2) being more accessible to search engines.
+
+As this was my first project, I relied on course materials including class exercises in HTML and CSS, class instruction from my instructor John Young and TA Nick Gambino, and publicly available resources (Stack Exchange, Semrush, w3 schools), and discussion with classmates on Discord.
 
 The user requested semantic HTML elements, logical structure to the source code, accessible alt attributes, sequential heading attributes, and a concise, descriptive title (which I provided as "Optimize with HoriSEOn").
-
-The mock-up showed that the nav links on the header should be in-line with the company name, which was the hardest part of this project for me. I did a considerable amount of trial-and-error in VS Code, aided by the "Prettier" plug-in, often looking at option lists and changing one element at a time.
-
-I also used online forums like Stack Exchange to find others' solutions to similar problems, e.g. changing the size of the nav links on the header using <small>.
-
-Probably the easiest part was replacing <div> tags with semantic tags, there is a popular graphic from Semrush that made this incredibly simple.
-
-I was tipped off by a classmate over Discord that one of the nav links was broken, so that was the first fix I made. Otherwise, my classmates and I mostly gave each other moral support.
