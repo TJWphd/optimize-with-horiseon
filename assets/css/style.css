@@ -4,6 +4,17 @@
     margin: 0;
 }
 
+// Detailed Documentation of Changes:
+While you’ve described some of the changes in your README,
+it would be helpful to document specific changes directly in the HTML and CSS
+files as comments. This can help future developers understand why certain
+modifications were made. 
+
+Further Improve Accessibility: Consider additional accessibility improvements, 
+such as ensuring all interactive elements are keyboard accessible and using ARIA attributes
+where necessary. Code Comments and Documentation: Add more comments to your HTML and CSS files to describe changes and improvements made. Check for Errors: Validate your code with tools like W3C Validator and run accessibility audits using Lighthouse or WAVE. Conclusion: Your project, "optimize-with-horiseon," demonstrates a solid effort in improving the semantic structure, accessibility, and SEO of a website. By refining your README, enhancing the HTML and CSS structure, and ensuring accessibility and SEO best practices, you will make your project even stronger.
+
+
 body {
     background-color: #d9dcd6;
 }
