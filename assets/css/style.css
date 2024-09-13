@@ -4,19 +4,7 @@
   margin: 0;
 }
 
-/* // Detailed Documentation of Changes:
-document specific changes directly in the HTML and CSS files as comments. 
-
-Consider additional accessibility improvements, such as ensuring all
-interactive elements are keyboard accessible and using ARIA attributes
-where necessary.
-
-Add more comments to your HTML and CSS files to describe changes and improvements.
-
-Check for Errors: Validate your code with tools like W3C Validator and run
-accessibility audits using Lighthouse or WAVE.
-
-Make sure the HTML and CSS code is consistently formatted throughout. */
+/* no changes to CSS from source code */
 
 body {
   background-color: #d9dcd6;
