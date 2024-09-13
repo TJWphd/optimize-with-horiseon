@@ -1,206 +1,212 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-// Detailed Documentation of Changes:
-While you’ve described some of the changes in your README,
-it would be helpful to document specific changes directly in the HTML and CSS
-files as comments. This can help future developers understand why certain
-modifications were made. 
+/* // Detailed Documentation of Changes:
+document specific changes directly in the HTML and CSS files as comments. 
 
-Further Improve Accessibility: Consider additional accessibility improvements, 
-such as ensuring all interactive elements are keyboard accessible and using ARIA attributes
-where necessary. Code Comments and Documentation: Add more comments to your HTML and CSS files to describe changes and improvements made. Check for Errors: Validate your code with tools like W3C Validator and run accessibility audits using Lighthouse or WAVE. Conclusion: Your project, "optimize-with-horiseon," demonstrates a solid effort in improving the semantic structure, accessibility, and SEO of a website. By refining your README, enhancing the HTML and CSS structure, and ensuring accessibility and SEO best practices, you will make your project even stronger.
+Consider additional accessibility improvements, such as ensuring all
+interactive elements are keyboard accessible and using ARIA attributes
+where necessary.
 
+Add more comments to your HTML and CSS files to describe changes and improvements.
+
+Check for Errors: Validate your code with tools like W3C Validator and run
+accessibility audits using Lighthouse or WAVE.
+
+Make sure the HTML and CSS code is consistently formatted throughout. */
 
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
 
 .header {
-    padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    display: inline-flexbox;
-    margin: none;
+  padding: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  display: inline-flexbox;
+  margin: none;
 }
 
 .header h1 {
-    display: outside;
-    font-size: 48px;
+  display: outside;
+  font-size: 48px;
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
 
 .nav-links {
-    list-style-type: none;
-    padding-top: 0px;
-    padding-left: 60px;
-    margin-right: 0px;
-    margin-left: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+  list-style-type: none;
+  padding-top: 0px;
+  padding-left: 60px;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
 .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .online-reputation-management img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .social-media-marketing img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 .footer h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
