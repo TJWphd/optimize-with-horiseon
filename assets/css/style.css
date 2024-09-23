@@ -4,8 +4,6 @@
   margin: 0;
 }
 
-/* no changes to CSS from source code */
-
 body {
   background-color: #d9dcd6;
 }
@@ -16,20 +14,22 @@ body {
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
-  display: inline-flexbox;
   margin: none;
+  align-items: center;
 }
 
 .header h1 {
-  display: outside;
   font-size: 48px;
+  /* align-self: baseline; */
 }
 
 .header h1 .seo {
-  color: #d9dcd6;
+  color: #7dca30;
 }
 
 .nav-links {
+  justify-content: end;
+  float: right;
   list-style-type: none;
   padding-top: 0px;
   padding-left: 60px;
