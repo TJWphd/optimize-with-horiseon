@@ -1,8 +1,12 @@
-# optimize-with-horiseon
+# Optimize With Horiseon
 
-## description
+## Description
 
-This project re-factors the client's existing website for search engine optimization (SEO), namely (1) replacing standard HTML tags with semantic tags and (2) adding alt descriptions to images. A broken nav link was also fixed.
+This is a website for a search engine optimization (SEO) company that has been refactored, appropriately, to improve its SEO.
+
+## Features
+
+This refactor focused on (1) replacing standard HTML tags with semantic tags and (2) adding alt descriptions to images. Also, (3) the CSS was commented to delineate and describe sections. Finally, (4) a broken nav link was fixed.
 
 Semantic refactoring aims to make the tags and classes in code more reflective of the content
 and specifically, the context in which that content appears on the page. This leads to better placement and interaction with search engines, and also improves accessibility for blind/visually impaired users and others.
@@ -13,7 +17,13 @@ Additionally, images are given <alt> tags with a verbal description; like the ot
 
 Visually, little has changed in the before and after, other than my (TJW) credit at the bottom of the page. The CSS classes were not changed in this refactor.
 
-## credits and acknowledgements
+## Deployment
+
+Repo Link: https://github.com/TJWphd/optimize-with-horiseon
+Deployment Link: https://tjwphd.github.io/optimize-with-horiseon
+Screenshot: ./assets/images/seo-screenshot.png
+
+## Credits and Acknowledgements
 
 The edX Full-Stack Blog: https://coding-boot-camp.github.io/full-stack/
 
