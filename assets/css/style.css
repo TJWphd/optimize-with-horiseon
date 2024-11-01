@@ -1,3 +1,4 @@
+/************* global styles ***************/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/**************header styles*************/
 .header {
   padding: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -20,7 +22,6 @@ body {
 
 .header h1 {
   font-size: 48px;
-  /* align-self: baseline; */
 }
 
 .header h1 .seo {
